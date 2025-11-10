@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { useMenu } from '../context/MenuContext';
-import { Course } from '../types';
+import { Course } from '../types/types';
 
 export default function HomeScreen() {
   const { menuItems } = useMenu();

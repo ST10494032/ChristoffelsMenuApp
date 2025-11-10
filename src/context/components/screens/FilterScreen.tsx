@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { useMenu } from '../context/MenuContext';
-import { Course } from '../types';
+import { Course } from '../types/types';
 
 export default function FilterScreen() {
   const { menuItems } = useMenu();

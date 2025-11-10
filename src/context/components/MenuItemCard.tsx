@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { MenuItem } from ' ../../../../types/index.ts'; 
+import { MenuItem } from '../';
 
 interface MenuItemCardProps {
   item: MenuItem;

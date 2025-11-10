@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { useMenu } from '../context/MenuContext';
-import { MenuItem, Course } from '../types';
+import { MenuItem, Course } from '../types/types';
 import { Ionicons } from '@expo/vector-icons';
 
 export default function AddMenuItemScreen() {
